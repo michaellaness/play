@@ -1,0 +1,400 @@
+/* #Reset
+================================================================================================= */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Media - Fluid Images - Video
+======================================================= */
+figure {
+  margin: 0;
+}
+
+img, object, embed, video {
+  max-width: 100%;
+  _width: 100%;
+}
+
+/* Fluid images */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Improve IE's resizing of images */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Correct IE9 overflow */
+img {
+  height: auto;
+}
+
+/* Colors
+================================================================================================= */
+/* Fonts
+================================================================================================= */
+/* Breakpoints
+================================================================================================= */
+/* Transition Times
+================================================================================================= */
+/* Links, Headers, Etc.
+======================================================= */
+a {
+  color: black;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+a:focus, a:hover, a:active {
+  outline: 0;
+}
+a:hover {
+  color: #ff003c;
+}
+a:visited {
+  color: #041c2b;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 0.35em;
+  color: #444444;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-family: 'proxima-nova-alt-condensed';
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3.25em;
+}
+
+h3 {
+  font-size: 2.25em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+.nav-previous a, .nav-next a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'proxima-nova-alt-condensed';
+  font-weight: 100;
+  padding: 60px 20px;
+  background: #c6c6c6;
+  color: white;
+}
+.nav-previous a:hover, .nav-next a:hover {
+  background: black;
+  color: white;
+}
+
+p {
+  font-size: 1.9em;
+}
+
+/* Main Body Styles
+======================================================= */
+body {
+  font-size: 62.5%;
+  color: #444444;
+  background: white;
+}
+body.custom-font-enabled {
+  font-family: "skolar",serif;
+  font-style: normal;
+  font-weight: 300;
+}
+body #content article.format-aside .aside {
+  border-left-color: #ff003c;
+}
+
+/* Structure
+======================================================= */
+#page {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  background: none;
+}
+#page #primary {
+  width: 85%;
+  max-width: 780px;
+  border-top: 10px solid turquoise;
+  float: none;
+  margin: 38px auto;
+  padding: 76px 3.75%;
+  background: white;
+}
+#page #secondary {
+  display: none;
+  width: -4%;
+  padding: 76px 2%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: white;
+  overflow-y: scroll;
+}
+
+article {
+  margin: 0 auto 2.5rem !important;
+  width: 100%;
+  max-width: 615px;
+}
+article .entry-header .entry-title {
+  text-align: center;
+  font-family: 'proxima-nova-alt-condensed';
+  font-weight: 100;
+}
+article .entry-header .entry-title a {
+  color: #444444;
+  border-bottom: 1px solid #444444;
+  font-size: 1.8em;
+}
+article .entry-header .entry-title a:hover {
+  color: #ff003c;
+  border-color: #ff003c;
+}
+article .entry-header .comments-link {
+  display: none;
+}
+article .entry-header .comments-link a:hover {
+  color: #ff003c;
+}
+article .entry-content center.insta {
+  overflow: hidden;
+}
+article .entry-content center.insta iframe {
+  margin-top: -52px;
+}
+article .entry-content a {
+  color: #ff003c;
+}
+article .entry-content a:visited {
+  color: #660018;
+}
+article .entry-content .gallery {
+  margin-bottom: 40px !important;
+}
+article .entry-content img {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none !important;
+}
+article .entry-meta {
+  color: #c6c6c6;
+  text-align: center;
+}
+article .entry-meta a:hover {
+  color: #ff003c;
+}
+
+#nav-below {
+  margin-top: -10px;
+}
+
+/* Sidebar
+======================================================= */
+#secondary.widget-area {
+  margin-top: -18px;
+}
+#secondary.widget-area a {
+  border-bottom: 1px solid #c6c6c6;
+  color: #c6c6c6;
+}
+#secondary.widget-area a:hover {
+  color: #ff003c;
+  border-bottom: 1px solid #ff003c;
+}
+#secondary.widget-area #logo-wrap {
+  background-color: #9bf0e9;
+  padding-top: 20px;
+}
+#secondary.widget-area h1, #secondary.widget-area h2 {
+  line-height: 1;
+  text-align: center;
+}
+#secondary.widget-area h1:not(h2), #secondary.widget-area h2:not(h2) {
+  font-size: 78px;
+  color: white;
+  margin-bottom: 0 !important;
+  font-family: "sax-mono",monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+#secondary.widget-area h1:not(h1), #secondary.widget-area h2:not(h1) {
+  margin-top: 15px;
+  font-size: 20px;
+  letter-spacing: .1em;
+  color: #c6c6c6;
+  opacity: 0.45;
+  top: 0;
+  font-family: 'proxima-nova-alt-condensed';
+  font-weight: 100;
+}
+#secondary.widget-area .widget {
+  float: left;
+  width: 100%;
+}
+#secondary.widget-area .widget h3 {
+  margin-bottom: 5px;
+  margin-top: -15px;
+}
+#secondary.widget-area .widget a {
+  text-decoration: none;
+}
+#secondary.widget-area #search-2 fieldset {
+  width: 100%;
+}
+#secondary.widget-area #search-2 input#search {
+  width: 96%;
+  padding: 7px 2%;
+  outline: none;
+  border-radius: 0;
+  border: 2px solid #c6c6c6;
+  color: #c6c6c6;
+  font-size: 1.8em;
+}
+#secondary.widget-area #search-2 input#search:focus {
+  border-color: #ff003c;
+  outline: none;
+  color: #444444;
+}
+#secondary.widget-area .tagcloud a {
+  border: 1px solid #c6c6c6;
+  letter-spacing: 0.06em;
+  padding: 3px 8px;
+  line-height: 2.75;
+  text-decoration: none;
+  color: #c6c6c6;
+  font-family: 'proxima-nova-alt-condensed';
+  font-weight: 100;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#secondary.widget-area .tagcloud a:visited {
+  color: #177978;
+  border-color: #177978;
+}
+#secondary.widget-area .tagcloud a:hover {
+  color: white;
+  border-color: #ff003c;
+  background: #ff003c;
+}
+
+/* Footer
+======================================================= */
+#colophon {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  color: #c6c6c6;
+  font-size: 0.75em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-top: 0;
+}
+#colophon a {
+  color: #c6c6c6;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#colophon a:hover {
+  color: #ff003c;
+}
+#colophon svg {
+  margin-top: 15px;
+  width: 100px;
+  height: 60px;
+}
+#colophon svg .icon {
+  fill: none;
+  stroke: #c6c6c6;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#colophon svg:hover .icon {
+  stroke: #ff003c;
+}
+
+/* Extras
+======================================================= */
+.go-top {
+  display: none;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  padding: 1em 1em 0.75em 1em;
+  background-color: rgba(158, 178, 192, 0.4);
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.first {
+  margin-left: 0 !important;
+}
+
+.last {
+  margin-right: 0 !important;
+}
+
+/* Selection Colors
+======================================================= */
+::-moz-selection {
+  background: #444444;
+  color: white;
+}
+::selection {
+  background: #444444;
+  color: white;
+}
+
+::-moz-selection {
+  background: #444444;
+  color: white;
+}

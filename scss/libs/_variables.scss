@@ -1,0 +1,29 @@
+/* Colors
+================================================================================================= */
+
+$headline-color:#444;
+$body-copy-color:#444;
+
+$link-color:black;
+$link-hover-color:gray;
+
+// Highlight Colors
+$highlight-color:white;
+$highlight-bkgd-color:#444;
+
+$light-gray:#c6c6c6;
+$pink:#ff33cc;
+$rando: #ff003c;
+$turq:turquoise;
+
+
+
+/* Fonts
+================================================================================================= */
+
+@mixin heading-font {@include font-pn(condensed);}
+@mixin body-font {@include font-skol(300);}
+
+/* Breakpoints
+================================================================================================= */
+//$medium-screen:1060px;

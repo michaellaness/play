@@ -1,0 +1,40 @@
+//-- Proxima Nova --//
+@mixin font-pn($weight) {
+@if $weight == 'light-italic' {font-family: 'proxima-nova';font-weight:100; font-style:italic;}
+@else if $weight == 'regular' {font-family: 'proxima-nova'; font-weight:300;}
+@else if $weight == 'condensed' {font-family: 'proxima-nova-alt-condensed';font-weight:100; }
+
+}
+
+@mixin font-frank($weight:300, $style:normal) {
+font-family: "franklin-gothic-urw", helvetica, sans-serif;
+font-style: $style;
+font-weight: $weight;
+}
+
+@mixin font-freight($weight:300, $style:normal) {
+	font-family:"freight-text-pro",georgia, times, serif;
+	font-style:$style;
+	font-weight:$weight;
+}
+
+@mixin font-com($weight:400, $style:normal) {
+	 font-family: "comenia-sans-web";
+	 font-style: $style;
+	 font-weight: $weight;
+}
+
+@mixin font-skol($weight:400, $style:normal) {
+	font-family: "skolar",serif;
+	font-style:$style;
+	font-weight:$weight;
+}
+
+
+@mixin font-sax($weight:400, $style:normal) {
+	font-family: "sax-mono",monospace;
+	font-style:$style;
+	font-weight:$weight;
+
+}
+
