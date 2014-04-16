@@ -162,7 +162,7 @@ body #content article.format-aside .aside {
 #page #primary {
   width: 85%;
   max-width: 780px;
-  border-top: 10px solid turquoise;
+  border-top: 10px solid #fed544;
   float: none;
   margin: 38px auto;
   padding: 76px 3.75%;
